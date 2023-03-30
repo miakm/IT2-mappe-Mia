@@ -9,7 +9,7 @@
 - Problemløsning
     - Metoder, teknikk og verktøy (skriv kort forskjell på skippertak og fossefall etc)
     - Alternative løsninger
-    - Objektorienterte programmer med klasser, arv og objekter
+    - [Objektorienterte programmer med klasser, arv og objekter] (./arv/arv.md)
 - Modellering og representasjon
     - Objektorienterte modeller som beskriver programstruktur (UML)
     - Representasjon av programflyt med kontrollstrukturer (Flytdiagram)
