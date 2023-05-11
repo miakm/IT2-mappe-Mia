@@ -12,15 +12,16 @@
     - [Objektorienterte programmer med klasser arv og objekter](./arv/arv.md)
 
     
-- Modellering og representasjon
+- [Modellering og representasjon](./pygame-23mars/)
     - Objektorienterte modeller som beskriver programstruktur (UML)
     - Representasjon av programflyt med kontrollstrukturer (Flytdiagram)
     - Brukervennlighet i programmer
 - Implementering
-    - Løsninger med programmering
+    - [Løsninger med programmering](./it2-smidig-webapp/)
     - Gjenbrukbar kode
     - Innhente, analysere og presentere data
     - [Vern mot kjøretidsfeil og logiske feil i programmer](./implementering/feilhaandtering.md)
 
-
-
+- Programmer
+    - [Pygame](./pygame-23mars/)
+    - [Smidig Webapp](./it2-smidig-webapp/)
