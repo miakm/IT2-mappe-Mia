@@ -14,7 +14,7 @@ clock = pygame.time.Clock()
 running = True
 
 biden = pygame.image.load("joe.png")
-biden = pygame.transform.scale(biden, (140,100))
+biden = pygame.transform.scale(biden, (160,120))
 iskrem = pygame.image.load("ice.png")
 iskrem = pygame.transform.scale(iskrem, (100, 100))
 
@@ -46,7 +46,7 @@ class Spiller(Figur):
 
     def fall(self):
         if 720 - 100 > self._y:
-            self._y += 4
+            self._y += 6
 
 
 
@@ -85,8 +85,9 @@ while running:
     screen.fill("purple")
 
     # LAG SPILLET DIT HER:
-
     spiller.tegn()
+
+
     for hinder in hindere:
         hinder.flytt_venstre() 
         hinder.tegn(screen)
@@ -100,15 +101,15 @@ while running:
         spiller.side_h()
     spiller.fall()
 
- 
-    #telle tiden, poeng per sekund man overlever
 
     score = 0
-    if spiller._y <= nytt_hinder._y and spiller._x <= nytt_hinder._x:
-        score -= 10
+    # if spiller._y <= nytt_hinder._y and spiller._x <= nytt_hinder._x:
+    #     score -= 10
     font = pygame.font.Font(None, 36)
     score_text = font.render(f'Score: {score}', True, (255, 255, 255))
+    head_text = font.render(f'Flappybiden', True, (255, 255, 255))
     screen.blit(score_text, (10, 10))
+    screen.blit(head_text, (200, 10))
 
 
     pygame.display.flip()

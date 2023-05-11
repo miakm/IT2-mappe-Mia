@@ -3,8 +3,8 @@
 ## Emner
 
 - Samfunn og systemer
-    - Etiske dilemma og konsekvenser av bruk av IT
-    - Standarder for lagring, utveksling og sikring av data
+    - Etiske dilemma og konsekvenser av bruk av IT (se innlevert tekst)
+    - [Standarder for lagring, utveksling og sikring av data](./samfunn-og-systemer/data.md)
     - Brukervennlighet i informasjonssystemer
 - Problemløsning
     - Metoder, teknikk og verktøy (skriv kort forskjell på skippertak og fossefall etc)

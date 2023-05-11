@@ -11,3 +11,4 @@ For å tegne grafer i Python kan vi bruke biblioteket 'matplotlib'.
 
 ## Lage nettsider (HTML/flask)
 
+
