@@ -19,7 +19,7 @@
 - Implementering
     - [Løsninger med programmering](./it2-smidig-webapp/)
     - Gjenbrukbar kode
-    - Innhente, analysere og presentere data
+    - [Innhente, analysere og presentere data](./implementering/presenteredata.md)
     - [Vern mot kjøretidsfeil og logiske feil i programmer](./implementering/feilhaandtering.md)
 
 - Programmer
