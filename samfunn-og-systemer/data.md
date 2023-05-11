@@ -1,12 +1,15 @@
 
-
 # Hva er data?
 
 Data refererer til informasjon eller fakta som er lagret, behandlet eller overført av datamaskiner eller elektroniske enheter. Data kan ta forskjellige former, inkludert tekst, tall, bilder, lyd og video.
 
+I IT2 refererer det ofte til csv/json filer som inneholder data man kan hente ut.
+
 # Hvordan lagres data i maskiner? 
 
 Data lagres i datamaskiner ved hjelp av elektroniske enheter som harddisker eller SSD-er. Disse enhetene bruker magnetiske eller elektroniske impulser for å representere nuller og enere (bits), som er grunnlaget for all digital informasjon. 
+
+Data kan i Python lagres i ordbøker eller lister. 
 
 # Hvordan utveksles data?
  Data kan utveksles mellom datamaskiner eller elektroniske enheter på
